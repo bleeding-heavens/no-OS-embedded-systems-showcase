@@ -40,7 +40,7 @@ static uint32_t voltage; // static 32 bit integer signed, and our voltage values
 
 // display the user menu
 void menu_display(){
-    char menu[] = "Menu for 5 user commands:\r\n(stop) - stop current operation, reset system, and wait for next input\r\n(echo) - enables echo mode for user input to the UART\r\n(leds) - runs blinker mode, cycles through red, green, and red + green for 1000ms on, 400ms off\r\n(moni) - runs temperature and battery monitoring\r\n(trng) - output a random number using TRNG to UART\r\n";
+    char menu[] = "Menu for 5 user commands:\r\n(stop) - stop current operation, reset system, and wait for next input\r\n(echo) - enables echo mode for user input to the UART\r\n(leds) - runs blinker mode, cycles through red, green, and red + green every second\r\n(moni) - runs temperature and battery monitoring\r\n(trng) - output a random number using TRNG to UART\r\n";
 
     for (int i = 0; i < sizeof(menu)/sizeof(menu[0]); i++){
         UARTCharPut(UART0_BASE, (uint8_t) (menu[i]));
