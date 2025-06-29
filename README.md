@@ -1,8 +1,13 @@
 Hello ! When running this in Code Composer Studio, please use the following settings for the Serial Terminal:
+
 Baud Rate: 9600
+
 Data size: 8
+
 Parity: None
+
 Stop bits: 1
+
 
 
 Here is what the menu looks like:
