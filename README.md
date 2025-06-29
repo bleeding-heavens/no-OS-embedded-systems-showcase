@@ -1,4 +1,6 @@
-Hello ! When running this in Code Composer Studio, please use the following settings for the Serial Terminal:
+Hello ! Welcome to my embedded systems showcase without OS programming.
+
+When running this in Code Composer Studio, please use the following settings for the Serial Terminal:
 
 Baud Rate: 9600
 
